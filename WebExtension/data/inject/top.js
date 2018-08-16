@@ -75,7 +75,7 @@ var panel = (function() {
     hide: function() {
       if (iframe) {
         iframe.style.display = 'none';
-        iframe.style.height = '300px';
+        iframe.style.height = '450px';
       }
     },
     width: function() {
