@@ -17,10 +17,10 @@ var panel = (function() {
   let iframe;
   chrome.runtime.onMessage.addListener(request => {
     if (request.method === 'resize') {
-      let height = request.height;
+      /*let height = request.height;
       if (prefs.mheight) {
         height = Math.max(height, prefs.mheight);
-      }
+      }*/
       if (iframe) {
         iframe.style.height = height + 'px';
       }
